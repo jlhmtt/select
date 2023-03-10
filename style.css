@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Golos Text';
+}
+
+h1 {
+  margin-right: 0.5em;
+  font-family: 'Tilt Warp';
+  font-weight: 400;
+}
+
+span {
+  cursor: pointer;
+  width: 74px;
+}
+
+.escondido {
+  display: none;
+}
+
+.selecionado {
+  display: initial;
+  border: 1px solid black;
+  padding: 0.5em 0.75em;
+  margin: 1px;
+
+  background-color: #fff;
+}
+
+#selectPai {
+  display: flex;
+  flex-direction: column;
+  
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.5em;
+  background-color: #bbd3c7;
+  
+  transition: 0.8s;
+}
